@@ -1,0 +1,25 @@
+# backend/.env
+HASURA_GRAPHQL_ENDPOINT=https://your-hasura-instance.herokuapp.com/v1/graphql
+HASURA_ADMIN_SECRET=your-admin-secret
+Certainly! Below is a basic fintech platform that allows users to manage their accounts and perform simple transactions using Node.js, Hasura, and a simple frontend with HTML/CSS/JavaScript.
+
+Project Structure
+fintech-platform/
+├── backend/
+    1. Install Node.js Packages
+Create a directory named backend and run the following commands:
+│   ├── index.js
+│   ├── package.json
+│   └── .env
+├── frontend/
+│   ├── index.html
+│   ├── style.css
+│   └── script.js
+└── README.
+SUMMURY
+ Design Decisions and Assumptions
+The platform is designed to be simple and straightforward, allowing users to create accounts and manage their balances easily.
+Security measures such as CORS and environment variables are utilized for sensitive information.
+The frontend is minimal to focus on functionality; it can be enhanced further with frameworks like React or Vue.js.
+Conclusion
+This code provides a basic structure for a fintech platform utilizing Node.js for backend logic, Hasura for GraphQL API, and a simple HTML/CSS/JavaScript frontend. Ensure to test each component thoroughly and adjust the configurations according to your specific environment and requirements.

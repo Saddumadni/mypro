@@ -1,0 +1,30 @@
+    // Endpoint: POST /api/accounts
+    {
+    "name": " subspace",
+    "balance": 1000
+    }
+    {
+        "id": 1,
+        "name": "Subspace",
+        "balance": 1000
+    }
+    // Endpoint: POST /api/deposit
+    {
+        "accountId": 1,
+        "amount": 500
+    }
+    // Response
+    {
+        "id": 1,
+        "balance": 1500
+    }
+    // Endpoint: POST /api/withdraw
+    {
+        "accountId": 1,
+        "amount": 200
+    }
+    // Response
+    {
+        "id": 1,
+        "balance": 1300
+    }
